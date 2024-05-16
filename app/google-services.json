@@ -1,0 +1,57 @@
+{
+  "project_info": {
+    "project_number": "293301260062",
+    "firebase_url": "https://filmovi-43883.firebaseio.com",
+    "project_id": "filmovi-43883",
+    "storage_bucket": "filmovi-43883.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293301260062:android:c09d0257a34af1e5",
+        "android_client_info": {
+          "package_name": "com.milos.filmovi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293301260062-8l44hdq004tc9mh1rn2628a3ejm76s02.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.milos.filmovi",
+            "certificate_hash": "22b73f047a896fe94ffe237ba1e573bb22e6ee22"
+          }
+        },
+        {
+          "client_id": "293301260062-fl744sq9d2e0q35romq3tq8pe5uj04v6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.milos.filmovi",
+            "certificate_hash": "a0d1e0b5bf6644ef9a22b7f5480ed5a5ed946a31"
+          }
+        },
+        {
+          "client_id": "293301260062-m8vtsdr8dmhiikt54a19bvtig2754hg4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy48jUgReWun72K59xV6YhF0QhIOVfGm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293301260062-m8vtsdr8dmhiikt54a19bvtig2754hg4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4699102351411089~1863290633"
+    }
+  ],
+  "configuration_version": "1"
+}

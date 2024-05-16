@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black_alpha_40">#66000000</color>
+    <color name="Transparent">#00000000</color>
+    <color name="green">#00FF0B</color>
+    <color name="arrow_color">#FFFFFF</color>
+    <color name="backgroundTransparent">#75000000</color>
+    <color name="com_facebook_messenger_blue">#0078FF</color>
+</resources>

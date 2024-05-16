@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">verystream.com</domain>
+        <domain includeSubdomains = "true">oload.stream</domain>
+    </domain-config>
+</network-security-config>

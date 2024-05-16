@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item
+        android:id="@+id/nav_filmovi1"
+        android:title="Filmovi"
+
+        >
+    <menu>
+        <group android:checkableBehavior="single"
+            android:id="@+id/group1">
+            <item
+                android:id="@+id/nav_filmovi"
+                android:icon="@drawable/ic_video"
+                android:title="Strani Filmovi" />
+            <item
+                android:id="@+id/nav_domaci_filmovi"
+                android:icon="@drawable/ic_video_1"
+                android:title="Domaci Filmovi" />
+        </group>
+    </menu>
+    </item>
+
+    <group android:checkableBehavior="single"
+
+        android:id="@+id/group2">
+        <item
+                android:id="@+id/nav_o_aplikaciji"
+                android:icon="@drawable/ic_information"
+                android:iconTint="@color/arrow_color"
+                android:title="O aplikaciji" />
+            <item
+                android:id="@+id/nav_share"
+                android:iconTint="@color/arrow_color"
+                android:icon="@drawable/ic_share"
+                android:title="Podeli aplikaciju" />
+            <item
+                android:id="@+id/nav_kontakt"
+                android:icon="@drawable/ic_email"
+                android:iconTint="@color/arrow_color"
+                android:title="Kontakt" />
+    </group>
+</menu>

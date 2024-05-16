@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--   your app branding color for the app bar -->
+        <item name="colorPrimary">#080808</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">#000000</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">#1332bc</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.Custom" parent="Theme.AppCompat">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="CustomActionBar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="colorControlNormal">@color/arrow_color</item>
+        <!-- Support library compatibility -->
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="NavigationView" parent="Base.Theme.AppCompat">
+        <item name="android:listDivider">@color/arrow_color</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>
